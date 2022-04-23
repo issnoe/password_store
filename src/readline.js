@@ -67,6 +67,11 @@ class ReadLine {
             console.table(password);
             this.options();
             break;
+          case "4":
+            const listAll = await Main.getStore();
+            console.table(listAll);
+            this.options();
+            break;
         }
         readline.prompt();
       })

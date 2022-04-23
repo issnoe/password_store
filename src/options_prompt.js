@@ -30,6 +30,7 @@ function display() {
     add: "1",
     search: "2",
     passwordWithIndex: "3",
+    list: "4",
   };
   console.table(setO);
 }

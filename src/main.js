@@ -24,8 +24,9 @@ class Main {
       console.log(error);
     }
   }
-  getStore() {
-    this.store;
+  async getStore() {
+    await this.setStore();
+    return this.store;
   }
   async save(newElement) {
     await this.setStore();
