@@ -1,0 +1,19 @@
+{
+  "name": "pass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "SECRET_KEY=your_secret_key node index.js",
+    "test": "SECRET_KEY=your_secret_key jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
